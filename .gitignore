@@ -1,0 +1,26 @@
+# Raw sensor data (too large for Git)
+data/*.csv
+
+# Model weights and training outputs
+outputs/
+*.pth
+*.pkl
+*.npz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp Word files
+~$*.docx
